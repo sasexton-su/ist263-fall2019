@@ -2,7 +2,7 @@ body {
     background-color:white;   
 }
 header {
-    background-image: url("./images/gradient_bg.png");
+    background-image: url("gradient_bg.png");
     background-repeat: repeat-x;
     border: 2px solid #0069af;
 }
