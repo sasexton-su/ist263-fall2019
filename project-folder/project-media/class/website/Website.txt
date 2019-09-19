@@ -1,0 +1,5 @@
+The Process of the Equality Now website started with style exploration, infographic creation, and finally web design. I focused on user experience and simplifying complex information to be understood by a specified audience. After solidifying my message and audience, I was able to distinguish  what information I wanted to visually represent. Using one of six different types of graphs, I outlined what I wanted to create and started iterations. Here, you can see six of the infographics that help to display different costs of being a woman, including the wage gap, gender taxed items, and period costs.Using a 1140 px grid fit to a 1280px monitor, I laid out web pages to present my infographics in an interesting way, modifying them for web. I wanted to focus on how scroll could emphasize them and how if affects the  user experience. After creating the full web mock-up, I translated the pages to a mobile size so that it could be viewed in both ratios.
+
+https://xd.adobe.com/view/2e9c5ac9-a112-4a87-6552-601f250f0f12-58ad/
+
+https://xd.adobe.com/view/69a45834-bc56-4deb-4cfe-28c43bf4c826-1f95/
