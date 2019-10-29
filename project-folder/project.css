@@ -1,46 +1,105 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-    width: 1596px;
-}
-.page-content { 
-    width: 1180px;
-    margin: 0 auto;
-}
-header {
-    background: #333;
-    color: #fff;
-}
-.header-box {
-    width: 1200px;
-    margin: 0 auto;
-}
-div.header {
-    padding: 5px;
-}
-div.header p {
+body { 
+    width: 100%;
+    background-color: #6FB1AD;
     margin: 0;
 }
-div.header h1 {
-    margin: 5px 0;
+#flex-header {
+    display:flex;
 }
-.row {
-    display: flex;
+header {
+    display:block;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    padding: 15px 0px 15px 0px;
 }
-.col {
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li {
+    display: inline-block
+}
+#logo-container {
     flex: 1;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 5px;
+    width: 20%
+} 
+#nav {
+    flex: 4;
+    width:80%;
+    display:inline-block;
+}
+#about-me {
+    width: 90%;
+    display: flex;
+}    
+.hero-image {
+    background-image: url("project-media/about-me/color-clouds.png");
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    /*position: relative;*/
+}
+.hero-text {
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #231F20;
+}
+
+#footer-text {
+    display: block;
+}
+.footer {
+    display: flex;
+    width: 100%;
+}
+.collum {
+    flex: 1;
+}
+.img-collum {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    outline: 15px #6FB1AD;
 }
 .box {
     margin: 10px;
-    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+.img-box {
+    margin: 10px;
     padding: 10px;
     width: 250px;
 }
-img.responsive { 
+.img-responsive { 
     width: 250px;
     margin: 0 auto;
 }
-img.main { 
-    width: 100%;
-    margin: 0 auto;
+#UU {
+        background-image: url("./project-media/university-union/group.jpg");
+        width: 50%;
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+#comm{
+    background-image: url("./project-media/class/insta-1.jpg");
+    width: 50%;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
