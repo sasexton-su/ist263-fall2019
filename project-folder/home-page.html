@@ -7,9 +7,11 @@
 </head>
 <body>
     <header>
+        <section id="flex-header">
         <div id="logo-container">
         <img src="project-media/about-me/logo.png" alt="Sloane Sexton Design Logo" height="100"/>
         </div>
+        <div id="nav">
         <nav>
             <ul>
                 <li><a href="home-page.html">About Me</a></li>
@@ -17,6 +19,8 @@
                 <li><a href="university-union.html">University Union</a></li>
             </ul>
         </nav>
+        </div> 
+    </section>
     </header> 
     <section id="hero">
     <div class="hero-image">
@@ -27,18 +31,18 @@
      </div> 
     </section>  
     <section id="about-me">
-            <article class="collum">
-                <div class="col box">
-                    <img class="responsive" src="./project-media/about-me/headshot-1.jpg" alt="sloane sexton headshot" width="400">
+            <article class="img-collum">
+                <div class="img-box">
+                    <img class="responsive" src="./project-media/about-me/headshot-1.jpg" alt="sloane sexton headshot" width=250>
                 </div>
             </article>    
-            <article class="collum">
-                <div class="col box">
-                    <img class="responsive" src="./project-media/about-me/headshot-2.jpg"  alt="sloane sexton headshot" width="400">
+            <article class="img-collum">
+                <div class="img-box">
+                    <img class="responsive" src="./project-media/about-me/headshot-2.jpg"  alt="sloane sexton headshot" width=250>
                 </div>
             </article>
             <article class="collum">
-                <div class="col box">
+                <div class="box">
                     <h2>About Me</h2>
                     <p> Hello! I’m Sloane Sexton and I’m currently a junior at Syracuse University studying Communications Design. If you don’t know what that is, I like to call it “graphic design with pizzazz!” I could list off all of my hobbies, like painting and drawing, but I believe that they’re all a part of what it means to be a designer. I try to live every day as a designer and remain conscious to how every choice I make can be a purposeful design choice. From what you wear to what you eat, we’re all just the designers of our own lives, right? </p>
                 </div>
@@ -46,17 +50,22 @@
         </div>
     </section>
     <section id="footer-nav">
-        <h3>See what work I do at Syracuse University</h3>
-        <div class="comm-design">
+        <article id="footer-text">
+         <h3>See what work I do at Syracuse University</h3> 
+        </article>
+        <article class="footer">
+        <div id="comm">
             <div class="comm-text">
                 <h4><a href="comm-design.html">Communications Design</a></h4>
             </div>
         </div> 
-        <div class="university-union">
+        <div id="UU">
             <div class="university-union">
                 <h4><a href="university-union.html">University Union</a></h4>
             </div>
-        </div>   
+        </div>
+        </article>
     </section>
 </body>
 </html>
+<!--https://sasexton-su.github.io/ist263-fall2019/project-folder/home-page.html-->
