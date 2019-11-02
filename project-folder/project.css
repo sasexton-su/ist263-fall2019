@@ -18,19 +18,43 @@ nav ul {
     display: inline-block;
 }
 nav ul li {
-    display: inline-block
+    display: inline-block;
+    color: #6FB1AD;
 }
+a:link {
+    color:#6FB1AD;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+a:visited {
+    color: #6FB1AD;
+    padding: 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(65, 104, 101);
+    padding: 20px;
+    text-decoration: underline;
+}
+a:active { 
+    color: rgb(65, 104, 101);
+    padding: 20px;
+}
+
 #logo-container {
     flex: 1;
     padding: 10px;
     display: inline-block;
     margin-left: 5px;
-    width: 20%
 } 
 #nav {
     flex: 4;
-    width:80%;
     display:inline-block;
+    padding: 40px;
+    padding-left: 10px;
+    align: right;
+    style: none;
 }
 #about-me {
     width: 90%;
@@ -47,16 +71,26 @@ nav ul li {
 }
 .hero-text {
     font-family: 'Open Sans', sans-serif;
-    text-align: right;
+    text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #231F20;
-}
+    color: white;
+    margin: 0;
+    font-size: 50px;
+    padding-bottom: 75px;
+    text-shadow: 2px 2px 5px  rgb(65, 104, 101);
 
+}
+h3 {
+    color:black;
+}
 #footer-text {
     display: block;
+    background-color: white;
+    padding: 10px;
+
 }
 .footer {
     display: flex;
@@ -64,17 +98,62 @@ nav ul li {
 }
 .collum {
     flex: 1;
+    display: inline-block;
+    width: 50%;
+}
+.collum1 {
+    flex: 1;
+    display: inline-block;
+    width: 75%;
+}
+.collum2 {
+    flex: 1;
+    display: inline-block;
+    width: 25%;
+}
+.row {
+    width: 100%;
+    flex:1;
+    display: flex;
 }
 .img-collum {
-    width: 250px;
+    width: 300px;
     margin: 10px;
     padding: 10px;
     outline: 15px #6FB1AD;
+    background-color: white;
 }
 .box {
     margin: 10px;
-    padding: 10px;
-    width: 100%;
+    padding: 20px;
+    width: 75%;
+}
+#CMD {
+    flex: 1;
+    display: flex;
+}
+#Mag {
+    display: flex;
+    background-color: white;
+}
+#union{
+    display: flex;
+    flex: 1;
+}
+#juice{
+    background-color: white;
+}
+#group{
+    padding-top: 75px;
+}
+.row1{
+    flex:2;
+}
+.row2{
+    flex:1;
+}
+#Web {
+    display: flex;
 }
 .img-box {
     margin: 10px;
@@ -102,4 +181,23 @@ nav ul li {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+#about-foot{
+    background-image: url("project-media/about-me/color-clouds.png");
+    width: 50%;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h4{ 
+    background-color:black;
+    padding: 10px;
+}
+h2{
+    font-size: 40px;
+}
+h1{
+    font-size:60px;
 }
