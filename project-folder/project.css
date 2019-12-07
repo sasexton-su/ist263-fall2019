@@ -24,22 +24,26 @@ nav ul li {
 }
 a:link {
     color:#6FB1AD;
-    padding: 20px;
+    padding: 2em;
+    padding-right: 3em;
     text-decoration: none; 
 }
 a:visited {
     color: #6FB1AD;
-    padding: 20px;
+    padding: 2em;
+    padding-right: 3em;
     text-decoration: none;
 }
 a:hover {
     color: rgb(65, 104, 101);
-    padding: 20px;
+    padding: 2em;
+    padding-right: 3em;
     text-decoration: underline;
 }
 a:active { 
     color: rgb(65, 104, 101);
-    padding: 20px;
+    padding: 2em;
+    padding-right: 3em;
 }
 
 #logo-container {
@@ -177,4 +181,33 @@ h2{
 }
 h1{
     font-size:60px;
+}
+@media (max-width: 240px) {
+   
+ }
+ @media (min-width: 241px) and (max-width: 319px) {
+    
+ }
+ @media (min-width: 320px) and (max-width: 767px) {
+    
+    a:link {
+        color:#6FB1AD;
+        padding: 5px;
+        text-decoration: none; 
+    }
+    a:visited {
+        color: #6FB1AD;
+        padding: 5px;
+        text-decoration: none;
+    }
+    a:hover {
+        color: rgb(65, 104, 101);
+        padding: 5px;
+        text-decoration: underline;
+    }
+    a:active { 
+        color: rgb(65, 104, 101);
+        padding: 5px;
+    }
+    } 
 }
